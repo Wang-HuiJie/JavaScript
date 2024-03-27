@@ -29,7 +29,7 @@
 function getinformation(data) {
     var ip = data.ip;
     console.log(data, data.ip)
-    xmlhttp.open('get', `https://192.168.252.166:3000/ip?ip=${data.ip}`,true);
+    xmlhttp.open('get', `https://47.99.160.22:3000/ip?ip=${data.ip}`,true);
     // xmlhttp.
     xmlhttp.send(JSON.stringify({
         id: data.ip
